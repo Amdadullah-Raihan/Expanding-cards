@@ -12,8 +12,10 @@
     border: 2px solid lightblue;
     border-radius: 50px;
     margin: 5px;
-    flex: 5;
+    flex: 0.5;
     position: relative;
+    transition: flex 0.7s ease-in;
+    height: 80vh;
   
 }
 
@@ -23,12 +25,17 @@
     border-radius: 50px;
 }
 
-.container .active{
-    flex: 10; 
+.container .panel.active{
+    flex: 5; 
+    
+}
+.panel.active h4{
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.5s;
     
 }
 
-.container .panel h4{
+.panel h4{
     position: absolute;
     bottom: 20px;
     left: 20px;
