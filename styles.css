@@ -18,6 +18,7 @@
     position: relative;
     transition: flex 0.7s ease-in;
     height: 80vh;
+    cursor: pointer;
   
 }
 
